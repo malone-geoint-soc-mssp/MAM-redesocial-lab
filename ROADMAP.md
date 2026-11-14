@@ -13,10 +13,10 @@ Laboratório automatizado de produção de vídeos e audiogramas educativos sobr
 
 ## Fase 1: Configuração de Ambiente & Validação das APIs de Mídia (B-Roll)
 **Objetivo:** Garantir a obtenção automatizada e sem falhas de clipes de vídeo e imagens HD via APIs dedicadas.
-- [ ] **1.1** Configurar chaves `PEXELS_API_KEY` e `PIXABAY_API_KEY` no ficheiro `.env`.
-- [ ] **1.2** Implementar `config/settings.py` para leitura segura das variáveis de ambiente.
-- [ ] **1.3** Desenvolver `src/api_broll.py` com função de pesquisa por palavras-chave, download automático e tratamento de *fallback* (caso a API falhe ou não encontre resultados).
-- [ ] **Critério de Validação:** Executar teste unitário que recebe o termo `"cybersecurity code"` e guarda um ficheiro `.mp4` válido em `assets/broll_cache/`.
+- [x] **1.1** Configurar chaves `PEXELS_API_KEY` e `PIXABAY_API_KEY` no ficheiro `.env`.
+- [x] **1.2** Implementar `config/settings.py` para leitura segura das variáveis de ambiente.
+- [x] **1.3** Desenvolver `src/api_broll.py` com função de pesquisa por palavras-chave, download automático e tratamento de *fallback* (caso a API falhe ou não encontre resultados).
+- [x] **Critério de Validação:** Executar teste unitário que recebe o termo `"cybersecurity code"` e guarda um ficheiro `.mp4` válido em `assets/broll_cache/`.
 
 ---
 
