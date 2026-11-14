@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+assets/broll_cache/*
+output/*
+!assets/broll_cache/.gitkeep
+!output/.gitkeep
+*.wav
+*.mp4
+*.m4a
+!config/voice_ref/.gitkeep
