@@ -22,10 +22,10 @@ Laboratório automatizado de produção de vídeos e audiogramas educativos sobr
 
 ## Fase 2: Motor de Clonagem de Voz & Masterização DSP
 **Objetivo:** Gerar narração natural em Português clonando o timbre vocal do autor a partir de um roteiro em texto.
-- [ ] **2.1** Calibrar e validar o ficheiro de referência vocal (`config/voice_ref/ref_malone.wav` — 15 a 30s, mono, 22050Hz, sem ruído).
-- [ ] **2.2** Desenvolver `src/voice_engine.py` utilizando XTTS-v2 (compatível com GPU Colab/Local).
-- [ ] **2.3** Integrar pós-processamento DSP (`highpass`, redução de ruído e normalização `loudnorm` a `-14 LUFS`).
-- [ ] **Critério de Validação:** Gerar um áudio `.wav` de teste a partir de uma frase e confirmar clareza vocal, pronúncia em Português e volume padronizado.
+- [x] **2.1** Calibrar e validar o ficheiro de referência vocal (`config/voice_ref/ref_malone.wav` — 15 a 30s, mono, 22050Hz, sem ruído).
+- [x] **2.2** Desenvolver `src/voice_engine.py` utilizando XTTS-v2 (compatível com GPU Colab/Local).
+- [x] **2.3** Integrar pós-processamento DSP (`highpass`, redução de ruído e normalização `loudnorm` a `-14 LUFS`).
+- [x] **Critério de Validação:** Gerar um áudio `.wav` de teste a partir de uma frase e confirmar clareza vocal, pronúncia em Português e volume padronizado.
 
 ---
 
