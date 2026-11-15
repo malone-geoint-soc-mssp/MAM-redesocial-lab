@@ -73,7 +73,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     if words_buffer:
         start_t = format_ass_time(words_buffer[0][0])
         end_t = format_ass_time(words_buffer[-1][1])
-        karaoke_line = "".join(f"{{\\k{max(10, int(round((we - ws) * 100)))}}{wt} " for ws, we, wt in words_buffer)
+        karaoke_line = "".join(f"{{\\k{max(10, int(round((we - ws) * 100)))}}}{wt} " for ws, we, wt in words_buffer)
         events.append(f"Dialogue: 0,{start_t},{end_t},Default,,0,0,0,,{karaoke_line.strip()}")
 
     ass_path.parent.mkdir(parents=True, exist_ok=True)
